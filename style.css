@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #1f2235;
+  color: #d1cedf;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.heading{
+  text-align: center;
+  margin-top: 10rem;
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  
+}
+
+.container{
+  background-color: #313552;
+  width: 28rem;
+  height: 31rem;
+  margin:  auto ;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.status{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 0.5rem;
+}
+
+
+.emoji{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 0;
+  font-size: 4rem;
+}
+
+.result {
+  text-align: center;
+  margin: 0.5rem;
+  color: rgb(238, 182, 115);
+  font-size: 1.3rem;
+}
+
+.task {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 4rem;
+  margin-bottom: 0.9rem;
+}
+
+.inputbox {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  background-color: #1f2235;
+  border: 2px solid rgb(238, 182, 115);
+  width: 9rem;
+  height: 4rem;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  text-align: center;
+  color: rgb(177, 137, 86);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 6rem;
+  margin: auto;
+  cursor: pointer;
+}
+
+.check, .reset{
+  font-family: 'Press Start 2P';
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(238, 182, 115);
+  margin: 0.7rem 0;
+  font-size: 0.6rem;
+  color: rgba(31,34,53, 0.8);
+}
+
