@@ -5,7 +5,7 @@ let currentScore = 50;
 let userInput = 0;
 
 let guess = {
-  display: 'Guess a Number between 1 to 50',
+  display: 'Guess a Number between 0 to 50',
   lower : 'This Number Is Lower',
   higher: 'This Number Is Higher',
   correct : 'YOU ARE A GENIUS!',
