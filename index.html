@@ -8,29 +8,33 @@
   <title>Guess Game</title>
 </head>
 <body>
-  <main>
+  <main id="main">
     <h1 class="heading">Guess The Number</h1>
     <div class="container">
       <div class="status">
         <span class="score">
-          High Score: 0 <span class="high"></span>
+          High Score:  <span class="high"></span>
         </span>
         <span class="score">
-          Current Score: 0 <span class="current"></span>
+          Current Score:  <span class="current"></span>
         </span>
       </div>
 
       <p class="emoji">&#129300;</p>
-      <p class="result">Guess?</p>
-      <p class="task">Guess a Number between 1 to 50</p>
+      <p class="result"></p>
+      <p class="task"></p>
       <div class="inputbox">
         <input type="number" class="input">
       </div>
       <section class="buttons">
         <button class="check">Check</button>
-        <button class="reset">Reset</button>
+        
+        <input class="reset" type="reset" value="Reset" onClick="window.location.reload()">
       </section>
     </div>
   </main>
+
+<script src="./app.js"></script>
+
 </body>
 </html>
