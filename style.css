@@ -101,3 +101,11 @@ body {
   cursor: pointer;
 }
 
+@media screen and (max-width: 640px){
+  #main{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+  }
+}
