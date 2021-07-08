@@ -120,6 +120,7 @@ resetBtn.addEventListener('click', () =>{
   computerSelect = Math.trunc(Math.random() * 50);
   console.log(computerSelect);
   result.innerHTML = resultMessage.guess;
+  emoticons.textContent = emoji.guess;
   task.innerHTML = guess.display
   Giveninput.value = '';
   checkBtn.disabled = false;
