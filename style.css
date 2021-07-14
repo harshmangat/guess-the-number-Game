@@ -12,6 +12,7 @@ body {
   background-color: #1f2235;
   color: #d1cedf;
   font-family: 'Press Start 2P', cursive;
+  overflow: hidden;
 }
 
 .heading{
@@ -102,6 +103,9 @@ body {
 }
 
 @media screen and (max-width: 640px){
+  body{
+    overflow: hidden;
+  }
   
  .container{
    overflow: hidden;
